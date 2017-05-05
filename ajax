@@ -60,13 +60,13 @@
 		type:'POST',
 		async:true,
 		data:{
-			uid:uid  
+		      uid:uid  
 		},
 		dataType:'json',
 
 		success: function (data) {
 
-              console.log(data.errCode);
+                  console.log(data.errCode);
               
               if(data.errCode==1||data.errCode==5)
               {
